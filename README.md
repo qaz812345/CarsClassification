@@ -1,7 +1,7 @@
 # Cars Classification
 This is a car image classification task for custom [Stanford Cars dataset](https://ai.stanford.edu/~jkrause/cars/car_dataset.html). We fine-tune the pre-trained ResNeXt-101-32x8d which provided in [torchvision models](https://pytorch.org/docs/stable/torchvision/models.html). The highest testing accuracy can reach 91.64%.
 
-In train.py, it will do:
+#### In train.py, it will do:
 1. Define CarsData class for custom dataset
 2. Create model and set hyperparameters
 3. Load data and pre-process
@@ -9,6 +9,14 @@ In train.py, it will do:
 5. Save model
 6. Plot training loss curve and accuracy curve
 7. Inference
+
+#### Model Compar
+
+   |Model | Testing Accuracy (%) |
+   |:------: | :-----------: |
+   |Wide ResNet-50-2 | 91.04 |
+   |ResNeXt-101-32x8d | 91.64 |
+
 ## Reproducing Submission
 1. [Installation](#Installation)
 2. [Dataset](#Dataset)
@@ -46,7 +54,7 @@ or you can pass the path of data directory and the label csv file while construc
 *	Random horizontal flip
 *	Color jitter
 *	Random rotation
-*	Image Normalization
+*	Image normalization
 ### Model
 * Pre-trained ResNeXt-101-32x8d
 ### Hyperparameters
