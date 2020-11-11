@@ -67,3 +67,8 @@ At the end of training loop, we will save the model parameter file to models dir
 ## Inference
 Load the testing images and start inference, and you will get an output csv file at the end. 
 
+## Reference
+*	utkuozbulak, pytorch-custom-dataset-examples, viewed 11 Nov 2020, <https://github.com/utkuozbulak/pytorch-custom-dataset-examples>
+*	Soumith Chintala, TRAINING A CLASSIFIER, viewed 11 Nov 2020, <https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py>
+*	deepBear, Pytorch car classifier - 90% accuracy, viewed 11 Nov 2020, <https://www.kaggle.com/deepbear/pytorch-car-classifier-90-accuracy>
+
